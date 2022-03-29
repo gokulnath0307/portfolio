@@ -9,7 +9,7 @@ import {
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
@@ -84,7 +84,7 @@ const Navbar = () => {
             About
           </StyledNavLinks>
         </NavList>
-        <NavList>
+        {/* <NavList>
           <StyledNavLinks
             to="playground"
             smooth={true}
@@ -97,7 +97,7 @@ const Navbar = () => {
           >
             Playground
           </StyledNavLinks>
-        </NavList>
+        </NavList> */}
       </NavMenuList>
       <StyledCTA
         href="mailto:jerichobantiquete@gmail.com "

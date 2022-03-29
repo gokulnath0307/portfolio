@@ -5,8 +5,8 @@ import {
   ContactLink,
   Copyright,
   FooterArrowLine,
-  FooterBigLink,
-  FooterBigLinkContainer,
+  // FooterBigLink,
+  // FooterBigLinkContainer,
   FooterContact,
   FooterContacts,
   FooterLine,
@@ -30,49 +30,49 @@ const Footer = () => {
         <FooterSmallTitle>get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
 
-      <FooterBigLinkContainer>
+      {/* <FooterBigLinkContainer>
         <FooterBigLink
           href="mailto:jerichobantiquete@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
         </FooterBigLink>
-      </FooterBigLinkContainer>
+      </FooterBigLinkContainer> */}
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactLink href="tel:+639951076206">+91 94883 21220</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/gokulnath0307"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+              href="https://www.linkedin.com/in/gokulnath-s-942346161/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </ContactLink>
-            <ContactLink
+            {/* <ContactLink
               href="https://www.instagram.com/monciego/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Instagram
-            </ContactLink>
+            </ContactLink> */}
           </FooterSocials>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
+          <ContactLink href="tel:+919488321220">
+            gokulnath0322@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
@@ -86,11 +86,11 @@ const Footer = () => {
         <small>
           &copy; Copyright {year},{" "}
           <Small
-            href="https://github.com/monciego"
+            href="https://github.com/gokulnath0307"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jericho Bantiquete
+            GOKULNATH S
           </Small>
         </small>
       </Copyright>

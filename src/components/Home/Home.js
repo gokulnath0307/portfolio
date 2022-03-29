@@ -26,21 +26,9 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Jericho Bantiquete</Name>
-        <Title>Front-end Developer</Title>
-        <p>
-          I <span className="change-text"></span>{" "}
-          <span className="responsive">r</span>
-          <span className="responsive">e</span>
-          <span className="responsive">s</span>
-          <span className="responsive">p</span>
-          <span className="responsive">o</span>
-          <span className="responsive">n</span>
-          <span className="responsive">s</span>
-          <span className="responsive">i</span>
-          <span className="responsive">v</span>
-          <span className="responsive">e</span> websites.
-        </p>
+        <Name>GOKULNATH S</Name>
+        <Title>Full Stack Developer</Title>
+        
         <StyledButtonsContainer>
           <StyledButton
             icon={projectIcon}
@@ -81,25 +69,26 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            href="mailto:jerichobantiquete@gmail.com"
+            onClick="window.open('mailto:gokulnath0322.com', 'mail');event.preventDefault()"
+            href="mailto:gokulnath0322@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaEnvelope />
+            <FaEnvelope size={30} />
           </Social>
           <Social
-            href="https://github.com/monciego"
+            href="https://github.com/gokulnath0307"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GoMarkGithub />
+            <GoMarkGithub style={{marginLeft:"15px"}} size={55}/>
           </Social>
           <Social
-            href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+            href="https://www.linkedin.com/in/gokulnath-s-942346161/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrLinkedinOption />
+            <GrLinkedinOption size={30} />
           </Social>
         </Socials>
         <Quote>Don't wish for it! Work for it!</Quote>

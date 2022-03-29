@@ -10,9 +10,9 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.jpg";
+import myImage from "../../assets/1.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Resume.pdf";
 
 const About = () => {
   return (
@@ -28,15 +28,14 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+            My name is GOKULNATH S, currently pursuing Master of Computer Science in Rathnavel Subramainam College of Arts and Science.I I
+            am a passionate Full stack developer based in India.
           </StyledParagraph>
           <StyledParagraph>
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+            my projects are HTML, CSS, JavaScript,Node JS,REACT JS,MongoDB,Express JS,TailwindCSS,Next JS,
+            Bootstrap, React-Bootstrap,  Git and GitHub, Figma, and VS Code.
           </StyledParagraph>
           <StyledParagraph>
             I have eagerness to learn something new every day and I love to
@@ -47,7 +46,7 @@ const About = () => {
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+              download="resume-gokulnath"
             >
               Download Resume
             </ResumeLink>

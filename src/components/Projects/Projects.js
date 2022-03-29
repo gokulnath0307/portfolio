@@ -9,12 +9,12 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <SectionHeading>
-        <SectionTitle number="01">Projects</SectionTitle>
+        <SectionTitle >Projects</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
         Selected projects I've worked on recently.{" "}
         <StyledLink
-          href="https://github.com/monciego"
+          href="https://github.com/gokulnath0307"
           target="_blank"
           rel="noopener noreferrer"
         >

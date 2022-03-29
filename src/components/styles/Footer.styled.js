@@ -2,8 +2,8 @@ import styled from "styled-components";
 import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 
 export const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.tertiaryLight};
+  background-color: ${({ theme }) => theme.backgroundColor.tertiaryLight};
+  color: ${({ theme }) => theme.color.dark};
 `;
 
 export const FooterSmallTitleWrapper = styled.div`
@@ -155,7 +155,7 @@ export const ContactLink = styled.a`
   position: relative;
 
   &:hover {
-    color: ${({ theme }) => theme.color.light};
+    color: ${({ theme }) => theme.color.dark};
   }
 
   &::after {
@@ -167,7 +167,7 @@ export const ContactLink = styled.a`
     bottom: 0;
     height: 1px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    background: ${({ theme }) => theme.backgroundColor.dark};
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
