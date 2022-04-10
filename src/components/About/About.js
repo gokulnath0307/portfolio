@@ -35,7 +35,7 @@ const About = () => {
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
             my projects are HTML, CSS, JavaScript,Node JS,REACT JS,MongoDB,Express JS,TailwindCSS,Next JS,
-            Bootstrap, React-Bootstrap,  Git and GitHub, Figma, and VS Code.
+            Bootstrap, React-Bootstrap, Git and GitHub, Figma, and VS Code.
           </StyledParagraph>
           <StyledParagraph>
             I have eagerness to learn something new every day and I love to

@@ -41,7 +41,7 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+91 94883 21220</ContactLink>
+          <ContactLink href="tel:+919488321220">+91 94883 21220</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
