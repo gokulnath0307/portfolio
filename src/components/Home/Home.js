@@ -69,7 +69,7 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            onClick="window.open('mailto:gokulnath0322.com', 'mail');event.preventDefault()"
+            onClick="window.open('mailto:gokulnath0322@gmail.com', 'mail');event.preventDefault()"
             href="mailto:gokulnath0322@gmail.com"
             target="_blank"
             rel="noopener noreferrer"

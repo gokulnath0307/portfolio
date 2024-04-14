@@ -7,14 +7,14 @@ export const projectsData = [
   {
     id: 1,
     projectName: "Dribble Homepage Clone",
-    liveLink: "https://dribble-clone.netlify.app/",
+    liveLink: "",
     hasLink: true,
     img: dribble,
   },
   {
     id: 2,
     projectName: "Random Quote Generator",
-    liveLink: "https://js-project-quote-generator.netlify.app/",
+    liveLink: "",
     hasLink: true,
     img: random,
   },
